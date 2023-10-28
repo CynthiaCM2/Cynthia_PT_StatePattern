@@ -1,0 +1,14 @@
+﻿1.- Nombre del proyecto
+State 
+2.- Para que se utiliza
+Representar la abstraccion de un objeto
+3.- La problematica que soluciona
+Solucionar algun comportamiento de un problema
+4.- Cuando debe ser utilizada
+Cuando se quiere manejar el comportamiento de un objeto
+5.- Como se crea el proyecto
+Se crea la interfaz de la que se derivaran las clases
+Se crean las diferentes clases que en este caso seran diferentes estados del servidor
+Se le insertan a cada clase la reespuesta que dara si la peticion a atender llama a esa clase
+Se crea la clase con el contexto de la clase que es la que hara que atienda las solictudes y se inserten las repuestas creadas
+Para hacer funcionar el codigo se insertan los objetos de cada metodo que llamara a las diferentes clases y se atiendan las solicitudes creadas con las respuestas generadas
